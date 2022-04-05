@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "935862962320",
+    "project_id": "bacherreciclerview",
+    "storage_bucket": "bacherreciclerview.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:935862962320:android:7b483ff78445633f04b015",
+        "android_client_info": {
+          "package_name": "com.ort.bacherreciclerview"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "935862962320-t31sg9gifhle5mp725dvrqbg3dq6n9rh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxqDP0lrul8cIKXqGkEs4BwXSfo7I7wdo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "935862962320-t31sg9gifhle5mp725dvrqbg3dq6n9rh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

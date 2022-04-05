@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navgraph"
+    app:startDestination="@id/fragmentRecicler">
+    <fragment
+        android:id="@+id/fragmentRecicler"
+        android:name="com.ort.bacherreciclerview.Fragments.FragmentRecicler"
+        android:label="fragment_recicler"
+        tools:layout="@layout/fragment_recicler" >
+        <action
+            android:id="@+id/action_fragmentRecicler_to_fragmentShowRecetas"
+            app:destination="@id/fragmentShowRecetas" />
+        <action
+            android:id="@+id/action_fragmentRecicler_to_fragmentAddRecetas"
+            app:destination="@id/fragmentAddRecetas" />
+        <action
+            android:id="@+id/action_fragmentRecicler_to_fragmentLogin"
+            app:destination="@id/fragmentLogin" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentShowRecetas"
+        android:name="com.ort.bacherreciclerview.Fragments.FragmentShowRecetas"
+        android:label="fragment_show_recetas"
+        tools:layout="@layout/fragment_show_recetas" >
+        <action
+            android:id="@+id/action_fragmentShowRecetas_to_fragmentRecicler"
+            app:destination="@id/fragmentRecicler" />
+        <argument
+            android:name="Recetas"
+            app:argType="com.ort.bacherreciclerview.Clases.Recetas" />
+        <action
+            android:id="@+id/action_fragmentShowRecetas_to_fragmentEditRecetas"
+            app:destination="@id/fragmentEditRecetas" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentAddRecetas"
+        android:name="com.ort.bacherreciclerview.Fragments.FragmentAddRecetas"
+        android:label="fragment_add_recetas"
+        tools:layout="@layout/fragment_add_recetas" >
+        <action
+            android:id="@+id/action_fragmentAddRecetas_to_fragmentRecicler"
+            app:destination="@id/fragmentRecicler" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentEditRecetas"
+        android:name="com.ort.bacherreciclerview.Fragments.FragmentEditRecetas"
+        android:label="fragment_edit_recetas"
+        tools:layout="@layout/fragment_edit_recetas" >
+        <action
+            android:id="@+id/action_fragmentEditRecetas_to_fragmentRecicler"
+            app:destination="@id/fragmentRecicler" />
+        <argument
+            android:name="Recetas"
+            app:argType="com.ort.bacherreciclerview.Clases.Recetas" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentLogin"
+        android:name="com.ort.bacherreciclerview.Fragments.FragmentLogin"
+        android:label="FragmentLogin" >
+        <action
+            android:id="@+id/action_fragmentLogin_to_fragmentRecicler"
+            app:destination="@id/fragmentRecicler" />
+        <action
+            android:id="@+id/action_fragmentLogin_to_fragmentSignUp"
+            app:destination="@id/fragmentSignUp" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentSignUp"
+        android:name="com.ort.bacherreciclerview.Fragments.FragmentSignUp"
+        android:label="FragmentSignUp" >
+        <action
+            android:id="@+id/action_fragmentSignUp_to_fragmentRecicler"
+            app:destination="@id/fragmentRecicler" />
+    </fragment>
+</navigation>

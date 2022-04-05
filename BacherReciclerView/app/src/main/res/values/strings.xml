@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">BacherReciclerView</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add">add</string>
+    <string name="fav">fav</string>
+    <string name="descripcion">Descripcion</string>
+    <string name="nombre">Nombre</string>
+    <string name="url">URL</string>
+    <string name="escribi_tus_propias_recetas">Escribi tus propias recetas!</string>
+    <string name="subir">Subir</string>
+    <string name="usuario">Usuario</string>
+    <string name="registrese">registrese</string>
+    <string name="cuenta">Cuenta</string>
+    <string name="iniciar_sesion">Iniciar sesion</string>
+    <string name="si_no_tiene_un_usuario">Si no tiene un usuario</string>
+    <string name="contrase_a">Contraseña</string>
+    <string name="guardar_cambios">Guardar Cambios</string>
+    <string name="repita_contrase_a">Repita contraseña</string>
+    <string name="accede_a_tu_cuenta">Accede a tu cuenta</string>
+</resources>
